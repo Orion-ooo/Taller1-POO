@@ -11,16 +11,19 @@ public class Ejercicio3_Estudiante {
     private String curso;
 
     public Ejercicio3_Estudiante() {
-        this("nombre Estudiante", 0, "curso estudiante");
+        this.nombre = "Nombre estudiante";
+        this.edad = 0;
+        this.curso = "Curso estudiante";
     }
 
     public Ejercicio3_Estudiante(String nombre, int edad) {
-        this(nombre, edad, "curso estudiante");
+        this();
+        this.nombre = nombre;
+        this.edad = edad;
     }
     
     public Ejercicio3_Estudiante(String nombre, int edad, String curso) {
-        this.nombre = nombre;
-        this.edad = edad;
+        this(nombre, edad);
         this.curso = curso;
     }
 

@@ -21,7 +21,7 @@ public class NewMain {
         libro.setTitulo(entradaTexto.nextLine());
         System.out.println("ingrese el nombre del autor del libro " + libro.getTitulo());
         libro.setAutor(entradaTexto.nextLine());
-        System.out.println("ingrese el numero de paginas del libro:" + libro.getTitulo());
+        System.out.println("ingrese el numero de paginas del libro: " + libro.getTitulo());
         libro.setNumPaginas(entradaNum.nextInt());
         
         System.out.println("titulo del libro: " + libro.getTitulo());
